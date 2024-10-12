@@ -1,0 +1,803 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.head_main_back {
+    width: 100%;
+    height: 100vh;
+    background-image: url('photo/back_header.jpg');
+    background-size: cover;
+}
+
+.logo {
+    width: 128px;
+    height: 128px;
+    margin-left: 70px;
+}
+
+header {
+    display: flex;
+}
+
+.all_list_head {
+    list-style: none;
+    display: flex;
+    margin-left: 80px;
+    font-size: 19px;
+
+}
+
+.list_head {
+    padding: 30px 60px;
+    font-family: "Oswald", sans-serif;
+    transition: font-size 0.5s ease;
+}
+
+.list_head a {
+    text-decoration: none;
+
+}
+
+.list_head a:hover {
+    color: linear-gradient(90deg, rgb(109, 92, 161) 33%, rgb(8, 9, 12) 79%);
+    text-shadow: 2px 2px 5px rgba(46, 30, 169, 0.3);
+    scale: 1.55
+}
+
+.list_head:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+
+
+.list_head {
+    position: relative;
+    color: #3e3e3e;
+    font-weight: bold;
+}
+
+/* main */
+
+
+
+
+.wrapper {
+    align-items: center;
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+    width: 100%;
+    margin-top: -6%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 400px;
+    justify-content: start;
+}
+
+.card {
+    align-items: flex-end;
+    background-size: cover;
+    border-radius: .75rem;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 30px -5px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    display: flex;
+    margin: 0 10px;
+    overflow: hidden;
+    transition: .6s cubic-bezier(.38, -0.03, 0, .99);
+    width: 80px;
+    height: 61vh;
+}
+
+.card>.row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card>.row>.icon {
+    align-items: center;
+    background: #223;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    width: 50px;
+}
+
+.card>.row>.description {
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: center;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(30px);
+    transition: all .3s ease;
+    transition-delay: .3s;
+    width: 520px;
+}
+
+.logo_menu {
+    display: flex;
+}
+
+.menu_icon {
+    width: 32px;
+    height: 32px;
+    display: none;
+}
+
+
+
+.description h4 {
+    text-transform: uppercase;
+}
+
+input {
+    display: none;
+}
+
+input:checked+label {
+    width: 480px;
+}
+
+input:checked+label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.card[for="c1"] {
+    background-image: url('photo/slider_first.jpg');
+}
+
+.card[for="c2"] {
+    background-image: url('photo/slider_second.jpg');
+}
+
+.card[for="c3"] {
+    background-image: url('photo/slider_third.jpg');
+}
+
+.card[for="c4"] {
+    background-image: url('photo/slider_fourth.jpg');
+}
+
+
+
+.typing-demo {
+    width: 25ch;
+    animation: typing 2s steps(25), blink 0.5s step-end infinite alternate, hid-border 0.1s forwards 2s;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid;
+    font-family: monospace;
+    font-size: 38px;
+    color: #342f2f;
+    text-shadow: 2px 2px 5px rgba(173, 114, 114, 0.575);
+    text-transform: uppercase;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+@keyframes hid-border {
+    to {
+        border-right: 0;
+    }
+}
+
+/* main_second */
+
+.main_second {
+    margin-top: 0.3%;
+    width: 100%;
+    height: 100vh;
+}
+
+.title_main_second, .title-personal,
+.title_main_poslygi {
+    white-space: nowrap;
+    font-family: monospace;
+    font-size: 58px;
+    color: #342f2f;
+    text-shadow: 2px 2px 5px rgba(173, 114, 114, 0.575);
+    text-transform: uppercase;
+    padding-left: 40%;
+    margin-top: 5%;
+
+}
+
+.first_four_box {
+    display: flex;
+}
+
+.second_four_box {
+    display: flex;
+}
+
+.services {
+    width: 220px;
+    height: 200px;
+    background: rgb(241, 232, 232);
+    background: linear-gradient(90deg, rgba(241, 232, 232, 1) 6%, rgba(218, 202, 202, 1) 47%, rgba(244, 233, 233, 1) 84%);
+    margin-top: 100px;
+    margin-left: 20vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+        0 8px 16px rgba(0, 0, 0, 0.1),
+        0 12px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: width 0.5s ease, height 0.5s ease, box-shadow 0.5s ease;
+}
+
+.services:not(:first-child) {
+    margin-left: 120px;
+}
+
+.services h3 {
+    font-size: 14px;
+    text-align: center;
+    transition: font-size 0.5s ease;
+    font-family: "Oswald", sans-serif;
+}
+
+.services h4 {
+    font-size: 16px;
+    text-align: center;
+    transition: font-size 0.5s ease;
+}
+
+
+
+.services:hover {
+    cursor: pointer;
+    width: 225px;
+    height: 215px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+        0 20px 40px rgba(0, 0, 0, 0.3);
+
+}
+
+.services:hover h3, h4 {
+    font-size: 16px;
+}
+
+
+.services button {
+    position: relative;
+    width: 100px;
+    height: 35px;
+    border-radius: 45px;
+    border: none;
+    background-color: rgb(151, 95, 255);
+    color: white;
+    box-shadow: 0px 10px 10px rgb(210, 187, 253) inset,
+        0px 5px 10px rgba(5, 5, 5, 0.212),
+        0px -10px 10px rgb(124, 54, 255) inset;
+    cursor: pointer;
+    margin-left: 8vh;
+    font-family: "Oswald", sans-serif;
+}
+
+.services button::before {
+    width: 70%;
+    height: 2px;
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.678);
+    content: "";
+    filter: blur(1px);
+    top: 7px;
+    border-radius: 50%;
+}
+
+.services button::after {
+    width: 70%;
+    height: 2px;
+    position: absolute;
+    background-color: rgba(250, 250, 250, 0.137);
+    content: "";
+    filter: blur(1px);
+    bottom: 7px;
+    border-radius: 50%;
+}
+
+button:hover {
+    animation: jello-horizontal 0.9s both;
+}
+
+@keyframes jello-horizontal {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+
+/* table */
+
+table {
+    position: fixed;
+    width: 50%;
+    border-collapse: collapse;
+    top: 10vh;
+    left: 53vh;
+    font-family: "Oswald", sans-serif;
+    border-radius: 10px;
+    visibility: hidden;
+    border: 0;
+    overflow: hidden;
+    z-index: 1000;
+
+
+}
+
+
+
+
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(240, 248, 255, 0.974);
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.095);
+
+}
+
+th {
+    background-color: rgb(162, 156, 197);
+    cursor: pointer;
+    height: 100px;
+
+}
+
+tr:hover:not(:first-child) {
+    background-color: rgb(0, 255, 8);
+    cursor: pointer;
+
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.krest {
+    background-color: rgba(0, 255, 8, 0);
+    position: absolute;
+    text-align: right;
+    margin-left: 715px;
+    margin-top: -5px;
+
+}
+
+.krest img {
+    width: 25px;
+}
+
+.krest img:hover {
+    width: 27px;
+
+}
+
+.personall {
+    margin-top: 0.3%;
+    width: 100%;
+    height: 105vh;
+    background-color: #a1a1a14f;
+}
+
+.title-personal {
+    padding-top: 5vh;
+    margin-top: 0;
+}
+
+.div-fourth-cards-personal,
+.div-eight-cards-personal {
+    display: flex;
+    padding-top: 4%;
+}
+
+.card-personal-1,
+.card-personal-2,
+.card-personal-3,
+.card-personal-4,
+.card-personal-5,
+.card-personal-6,
+.card-personal-7,
+.card-personal-8 {
+    width: 25vh;
+    height: 30vh;
+    margin-left: 20vh;
+}
+
+.card-personal-2,
+.card-personal-3,
+.card-personal-4,
+.card-personal-6,
+.card-personal-7,
+.card-personal-8 {
+    margin-left: 21vh;
+}
+
+.card-personal-1 {
+    position: relative;
+    background-image: url('personal/personal_1.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: top 0.5s ease-in-out;
+
+}
+
+.card_buuton {
+    width: 14vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 12vh;
+    margin-left: 0;
+    margin-left: 40px;
+    background-color: rgb(204, 204, 246);
+    color: #160c0c;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgb(201, 185, 233) inset,
+        0px 5px 10px rgba(5, 5, 5, 0.212),
+        0px -10px 10px rgb(145, 129, 129) inset;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+
+
+.card-personal-1:hover .overlay,
+.card-personal-2:hover .overlay,
+.card-personal-3:hover .overlay,
+.card-personal-4:hover .overlay,
+.card-personal-5:hover .overlay,
+.card-personal-6:hover .overlay,
+.card-personal-7:hover .overlay,
+.card-personal-8:hover .overlay {
+    top: 0;
+}
+
+
+
+
+.card-personal-2 {
+    background-image: url('personal/personal_2.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.card-personal-3 {
+    background-image: url('personal/personal_3.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-personal-4 {
+    background-image: url('personal/personal_4.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-personal-5 {
+    background-image: url('personal/personal_5.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-personal-6 {
+    background-image: url('personal/personal_6.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-personal-7 {
+    background-image: url('personal/personal_7.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.card-personal-8 {
+    background-image: url('personal/personal_8.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.div-fourth-name-personal {
+    display: flex;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+}
+
+.name-personal-2,
+.name-personal-3,
+.name-personal-4 {
+    padding-left: 30vh;
+    padding-top: 1vh;
+}
+
+.name-personal-1 {
+    padding-left: 22vh;
+    padding-top: 1vh;
+}
+
+.div-fourth-cards-personal div:hover,
+.div-eight-cards-personal div:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5),
+        0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.name-personal-5 {
+    padding-left: 37vh;
+    padding-top: 1vh;
+}
+
+.name-personal-6 {
+    padding-left: 34vh;
+    padding-top: 1vh;
+}
+
+
+/*ПОСЛУГИ  */
+
+.title_main_poslygi {
+    margin-left: 2%;
+}
+
+.section-poslygi {
+    height: 120vh;
+    width: 98.7%;
+    min-height: 100vh;
+    padding: 10px;
+    background-color: #cecece;
+}
+
+
+
+
+
+.title_main_poslygi {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.service-item {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    height: 30vh;
+    margin: 0 auto;
+}
+
+.service-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+
+}
+
+.service-title {
+    background-color: #9a9b9c;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 94.1%;
+    text-align: center;
+}
+
+footer {
+    height: 35%;
+    width: 100%;
+    background-color: #b2b0b0;
+}
+
+.foot_logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.all_foot {
+    display: flex;
+}
+
+.fot_p {
+    padding-top: 5vh;
+    font-family: "Oswald", sans-serif;
+    margin-left: 18vh;
+    font-size: 22px;
+}
+
+.foot_subpara {
+    font-size: 16px;
+    margin-left: 18vh;
+    padding-top: 2vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.foot_subpara a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.media img {
+    width: 32px;
+    height: 32px;
+    opacity: 0.7;
+}
+
+.media img:hover {
+    transform: scale(1.3);
+    opacity: 1;
+    transition: all 0.5s;
+    box-shadow: 1px 0 5px rgba(52, 152, 219, 1);
+}
+
+.face {
+    margin-left: 11vh;
+}
+
+.insta,
+.tw,
+.viber,
+.you {
+    margin-left: 3vh;
+    margin-top: 1vh;
+}
+
+hr {
+    color: gray;
+}
+
+.fot_fot {
+    padding-top: 1vh;
+    padding-left: 9vh;
+}
+
+.foot_logo:hover {
+    filter: drop-shadow(0px 0px 3px #ebebeb);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.foot_subpara:hover {
+    filter: drop-shadow(0px 0px 3px #ebebeb);
+    cursor: pointer;
+}
+
+.service-item:hover {
+    transform: scale(1.06);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.list_head img {
+    height: 28px;
+    width: 28px;
+    position: absolute;
+}
+
+.list_head {
+    position: relative;
+    display: inline-block;
+}
+
+.language-toggle {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    list-style: none;
+    background-color: rgb(133, 128, 128);
+    border: 1px solid #ccc;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-menu li {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background-color: #585656;
+}
+
+.ten_visit,
+.personal_train {
+    font-size: 10px;
+}
+
+
+
+
+.tel_ad {
+    display: none;
+}

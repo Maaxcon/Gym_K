@@ -1,0 +1,301 @@
+@media screen and (max-width:465px) {
+
+    .div-fourth-cards-personal,
+    .div-eight-cards-personal {
+        display: block;
+
+    }
+
+    .personall {
+        height: 100%;
+        width: 95.5%;
+        padding-bottom: 5vh;
+        padding-left: 2vh;
+    }
+
+    .div-fourth-name-personal {
+        display: block;
+    }
+
+    .card-personal-1,
+    .card-personal-5 {
+        margin-left: 21vh;
+    }
+
+    .card-personal-2,
+    .card-personal-3,
+    .card-personal-4,
+    .card-personal-5,
+    .card-personal-6,
+    .card-personal-7 {
+        margin-top: 4vh;
+    }
+
+    .name-personal-1 {
+        margin-top: -103vh;
+        padding-left: 0;
+        margin-left: 22vh;
+    }
+
+    .name-personal-2 {
+        margin-top: 29vh;
+        padding-left: 0;
+        margin-left: 26vh;
+    }
+
+
+    .name-personal-3,
+    .name-personal-4 {
+        margin-bottom: 29vh;
+        padding-left: 0;
+        margin-left: 24vh;
+    }
+
+    .name-personal-3 {
+        margin-top: 29vh;
+        padding-left: 0;
+        margin-left: 26vh;
+    }
+
+    .div-fourth-cards-personal,
+    .div-fourth-name-personal,
+    .div-eight-cards-personal,
+    .div-fourth-name-personal {
+        margin-left: -13vh;
+    }
+
+    .title-personal {
+        font-size: 35px;
+        margin-left: -6vh;
+    }
+
+    .div-eight-cards-personal {
+        margin-top: -35vh;
+    }
+
+    .card-personal-8 {
+        margin-top: 5vh;
+    }
+
+    .name-personal-5 {
+        margin-top: 29vh;
+        padding-left: 0;
+        margin-left: 28vh;
+    }
+
+    .name-personal-6 {
+        margin-top: 29vh;
+        padding-left: 0;
+        margin-left: 25vh;
+    }
+
+    #name-personal-1 {
+        margin-top: -104vh;
+        margin-left: 25vh;
+    }
+
+    #name-personal-2 {
+        margin-left: 25vh;
+    }
+
+    .services-grid {
+        display: block;
+        padding-bottom: 5vh;
+    }
+
+    .service-item {
+        padding-top: 30px;
+
+    }
+
+    .service-title {
+        width: 92.3%;
+    }
+
+    .section-poslygi {
+        height: 100%;
+        width: 94.6%;
+    }
+
+    .title_main_poslygi {
+        font-size: 35px;
+        margin: 0;
+        margin-left: -3vh;
+        padding-bottom: 2vh;
+        padding-top: 2vh;
+    }
+
+    .service-item:first-child {
+        padding-top: 0;
+    }
+
+    .main_second {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 5vh;
+    }
+
+    .first_four_box,
+    .second_four_box {
+        display: block;
+        padding: 0;
+        margin-left: -5vh;
+    }
+
+    .services:first-child {
+        margin-left: 120px;
+    }
+
+    .title_main_second {
+        font-size: 45px;
+        margin-left: -8vh;
+    }
+
+    .services h3 {
+        padding-top: 12px;
+    }
+
+    .services button {
+        margin-left: 7.5vh;
+
+    }
+
+    .all_foot {
+        display: block;
+    }
+
+    footer {
+        width: 100%;
+        height: 100%;
+    }
+
+    .foot_logo {
+        width: 150px;
+        height: 150px;
+        margin-left: 13vh;
+    }
+
+    .fot_p {
+        padding-top: 0;
+        margin-left: 17vh;
+    }
+
+    .foot_subpara {
+        margin-left: 7vh;
+    }
+
+    .geoloc {
+        padding-top: 3vh;
+    }
+
+    .media {
+        padding-top: 3vh;
+    }
+
+    .face {
+        margin-left: 7vh;
+    }
+
+    .fot_fot {
+        text-align: center;
+        padding-left: 7vh;
+        padding-right: 6vh;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+        padding: 0;
+        margin: 0;
+        margin-left: 2vh;
+    }
+
+    .head_main_back {
+        background-repeat: no-repeat;
+    }
+
+
+    .typing-demo {
+        font-size: 22px;
+        margin: 0 auto;
+        margin-top: 15vh;
+    }
+
+    .all_list_head {
+        display: block;
+        font-size: 16px;
+        display: none;
+    }
+
+    .card {
+        width: 25px;
+        height: 26vh;
+        margin-top: 12%;
+    }
+
+    input:checked+label {
+        width: 160px;
+    }
+
+    .card>.row>.icon {
+        margin: 0;
+        width: 15px;
+        height: 15px;
+        margin-top: 9%;
+        margin-left: 2%;
+
+    }
+
+
+    .logo{
+        margin-left: 15vh;
+        width: 70px;
+        height: 70px;
+        margin-top: -1%;
+    }
+    .description h4 {
+        padding-left: 4px;
+        margin-top: 6vh;
+        text-transform: uppercase;
+        font-size: 7px;
+    }
+
+    .tel_ad {
+        position: absolute;
+        margin-left: -56%;
+        background-color: rgb(220, 220, 220);
+        z-index: 1213213;
+        margin-top: -1vh;
+        height: 102%;
+        width: 89%;
+        display: none;
+    }
+
+    .xrestik{
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 77%;
+    }
+
+    .list_head {
+        font-size: 22px;
+        margin-left: 15%;
+    }
+
+    .menu_icon {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 8%;
+        margin-left: 20%;
+        cursor: pointer;
+
+    }
+
+
+    .head_main_back{
+        height: 100vh;
+    }
+
+    .ou{
+        margin-left: 12%;
+    }}

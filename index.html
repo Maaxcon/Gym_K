@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <div class="head_main_back">
+        <header>
+            <div class="logo_menu">
+                <img onclick="OpenMenu()" class="menu_icon" src="photo/free-icon-menu-2767162.png">
+                <img class="logo" src="photo/head_logo.png" alt="">
+            </div>
+            <div>
+                <ul class="all_list_head">
+                    <li class="list_head"><a class="main" href="">Головна</a></li>
+                    <li class="list_head"><a class="abon" href="#title_main_second">Абонементи</a></li>
+                    <li class="list_head"><a class="pers" href="#title-personal">Персонал</a></li>
+                    <li class="list_head"><a class="posl" href="#title_main_poslygi">Послуги</a></li>
+                    <li class="list_head"><a class="cont" href="#fotter">Контакти</a></li>
+                    <li class="list_head">
+                      <img src="personal/language.png" alt="">
+                      <ul class="language-toggle">
+                      <li class="ukr" onclick="toggleLanguageMenu()">UKR</li>
+                      <ul class="dropdown-menu" id="dropdown-menu" style="display: none;">
+                      <li class="eng" onclick="setLanguage('ENG')">ENG</li>
+                      <li class="ukr" onclick="setLanguage('UKR')">UKR</li>
+    </ul>
+  </ul>
+</li>
+</ul>
+</div>
+<!-- menu telephone -->
+             <div class="menu_telephone">
+                <ul  class="all_list_head tel_ad">
+                  <img class="xrestik" src="photo/х.png" alt="" onclick="ClosseTable()"></th>
+                    <li class="list_head"><a class="main" href="">Головна</a></li>
+                    <li class="list_head"><a class="abon" href="#title_main_second">Абонементи</a></li>
+                    <li class="list_head"><a class="pers" href="#title-personal">Персонал</a></li>
+                    <li class="list_head"><a class="posl" href="#title_main_poslygi">Послуги</a></li>
+                    <li class="list_head"><a class="cont" href="#fotter">Контакти</a></li>
+                    <li class="list_head">
+                      <img src="personal/language.png" alt="">
+                      <ul class="language-toggle">
+                      <li class="ukr" onclick="toggleLanguageMenu()">UKR</li>
+                      <ul class="dropdown-menu" id="dropdown-menu" style="display: none;">
+                      <li class="eng" onclick="setLanguage('ENG')">ENG</li>
+                      <li class="ukr" onclick="setLanguage('UKR')">UKR</li>
+    </ul>
+  </ul>
+</li>
+
+                </ul>
+            </div>
+
+
+
+        </header>
+        <main>
+           
+              <div class="typing-demo">
+                Тренажерний зал Kurylchuk
+              </div>
+
+<div class="wrapper">
+        <div class="container">
+          <input type="radio" name="slide" id="c1" checked>
+          <label for="c1" class="card">
+            <div class="row">
+              <div class="icon">1</div>
+              <div class="description">
+                <h4 class="first_slide">Тренажерний зал Kurylchuk</h4>
+           
+              </div>
+            </div>
+          </label>
+    
+          <input type="radio" name="slide" id="c2">
+          <label for="c2" class="card">
+            <div class="row">
+              <div class="icon">2</div>
+              <div class="description">
+                <h4 class="second_slide">Цифрові технології</h4>
+
+              </div>
+            </div>
+          </label>
+    
+          <input type="radio" name="slide" id="c3">
+          <label for="c3" class="card">
+            <div class="row">
+              <div class="icon">3</div>
+              <div class="description">
+                <h4 class="third_slide">Глобалізація</h4>
+
+              </div>
+            </div>
+          </label>
+    
+          <input type="radio" name="slide" id="c4">
+          <label for="c4" class="card">
+            <div class="row">
+              <div class="icon">4</div>
+              <div class="description">
+                <h4 class="fourth_slide">Нові технології</h4>
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+
+
+      <section class="main_second">
+        <div id="title_main_second" class="title_main_second">АБОНЕМЕНТИ</div>
+
+        <div class="all_box">
+          <div class="first_four_box">
+            <div class="services">
+              <h3 class="morning">РАНОК</h3>
+              <h4>8:00-12:00</h4>
+              <h3 class="every_day">Кожного дня</h3>
+              <button class="but_det" onclick="showTable()">Детальніше</button>
+            </div>
+            <div class="services">
+              <h3 class="day">ДЕНЬ</h3>
+              <h4>12:00-17:00</h4>
+              <h3 class="every_day">Кожного дня</h3>
+              <button class="but_det" onclick="showTable()">Детальніше</button>
+            </div>
+            <div class="services">
+              <h3 class="even">Вечір</h3>
+              <h4>17:00-22:00</h4>
+              <h3 class="every_day">Кожного дня</h3>
+              <button class="but_det" onclick="showTable()">Детальніше</button>
+            </div>
+            <div class="services">
+              <h3 class="onetime">ОДНОРАЗОВЕ ВІДВІДУВАННЯ</h3>
+              <h4>8:00-22:00</h4>
+              <h3 class="every_day">Кожного дня</h3>
+              <button class="but_det" onclick="showTable()">Детальніше</button>
+            </div>
+          </div>
+          <div class="second_four_box">
+            <div class="services">
+              <h3 class="ten_visit">ДЕСЯТИРАЗОВЕ ВІДВІДУВАННЯ</h3>
+              <h4>8:00-22:00</h4>
+              <h3 class="every_day">Кожного дня</h3>
+              <button class="but_det" onclick="showTable()">Детальніше</button>
+            </div>
+            <div class="services">
+              <h3 class="group_train">ГРУПОВЕ ТРЕНУВАННЯ</h3>
+              <h4>16:00-18:00</h4>
+              <h3 class="mond_frid">Понеділок - П'ятниця</h3>
+              <button class="but_det" onclick="showTable()">Детальніше</button>
+            </div>
+            <div class="services">
+              <h3 class="personal_train">ПЕРСОНАЛЬНЕ ТРЕНУВАННЯ</h3>
+              <h4>8:00-22:00</h4>
+              <h3 class="mond_sund">Понеділок - Неділя</h3>
+              <button class="but_det" onclick="showTable()">Детальніше</button>
+            </div>
+            <div class="services">
+              <h3 class="full">ПОВНИЙ АБОНЕМЕНТ</h3>
+              <h4>8:00-22:00</h4>
+              <h3 class="every_day">Кожного дня</h3>
+              <button class="but_det" onclick="showTable()">Детальніше</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="price">
+          <table class="table">
+        <tr>
+            <th class="krest" colspan="4"><img src="photo/х.png" alt="" onclick="closeTable()"></th>
+        </tr>
+        <tr>
+            <th>АБОНЕМЕНТИ</th>
+            <th>1 МІСЯЦЬ<br>ГРН</th>
+            <th>3 МІСЯЦІ<br>ГРН</th>
+            <th>6 МІСЯЦІВ<br>ГРН</th>
+        </tr>
+        <tr>
+            <td>Day<br>Денний без вихідних<br>12:00 – 17:00</td>
+            <td>780</td>
+            <td>1540</td>
+            <td>2560</td>
+        </tr>
+        <tr class="orange-row">
+            <td>Morning<br>ранок<br>08:00 – 17:00</td>
+            <td>1220</td>
+            <td>2440</td>
+            <td>3720</td>
+        </tr>
+        <tr>
+            <td>Full<br>повний<br>08:00 – 21:00</td>
+            <td>1540</td>
+            <td>3900</td>
+            <td>5280</td>
+        </tr>
+        <tr>
+            <td>РАЗОВИЙ ВІЗИТ<br>08:00 – 21:00</td>
+            <td colspan="3">Разове відвідування: 250</td>
+        </tr>
+        <tr>
+            <td>ДЕСЯТИРАЗОВИЙ ВІЗИТ<br>08:00 – 21:00</td>
+            <td colspan="3">10 відвідувань: 2000</td>
+        </tr>
+        <tr>
+            <td>ГРУПОВІ ТРЕНУВАННЯ</td>
+            <td colspan="3">10 відвідувань: 2500</td>
+        </tr>
+    </table>
+
+        </div>
+      </section>
+
+      <section class="personall">
+        <div id="title-personal" class="title-personal">Персонал</div>
+<div class="ou">
+        <div class="div-fourth-cards-personal">
+          <div class="card-personal-1"><div class="overlay"><button class="card_buuton" type="submit">Про тренера</button></div></div>
+          <div class="card-personal-2"><div class="overlay"><button class="card_buuton" type="submit">Про тренера</button></div></div>
+          <div class="card-personal-3"><div class="overlay"><button class="card_buuton" type="submit">Про тренера</button></div></div>
+          <div class="card-personal-4"><div class="overlay"><button class="card_buuton" type="submit">Про тренера</button></div></div>
+        </div>
+
+        <div class="div-fourth-name-personal">
+            <div class="name-personal-1">Олександр Ковальчук</div>
+            <div class="name-personal-2">Катерина Мельник</div>
+            <div class="name-personal-3">Олена Демченко</div>
+            <div class="name-personal-4">Микита Бондаренко</div>
+        </div>  
+        <div class="div-eight-cards-personal">
+          <div class="card-personal-5"><div class="overlay"><button class="card_buuton" type="submit">Про тренера</button></div></div>
+          <div class="card-personal-6"><div class="overlay"><button class="card_buuton" type="submit">Про тренера</button></div></div>
+          <div class="card-personal-7"><div class="overlay"><button class="card_buuton" type="submit">Про тренера</button></div></div>
+          <div class="card-personal-8"><div class="overlay"><button class="card_buuton" type="submit">Про тренера</button></div></div>
+        </div>
+        <div class="div-fourth-name-personal">
+            <div id="name-personal-1" class="name-personal-1 n">Дмитро Левченко</div>
+            <div id="name-personal-2" class="name-personal-2 a">Василь Гончарук</div>
+            <div class="name-personal-5">Юн Су Мін</div>
+            <div class="name-personal-6">Віталій Шевченко</div>
+        </div>  
+        </div>
+      </section>
+
+   <section class="section-poslygi">
+    <div id="title_main_poslygi" class="title_main_poslygi">Послуги</div>
+    <div class="services-grid">
+        <div class="service-item">
+            <img src="photo_serv/FIRST_POSL.jpg" alt="Тяжелая атлетика">
+            <div class="service-title f">ТЯЖКА АТЛЕТИКА</div>
+        </div>
+        <div class="service-item">
+            <img src="photo_serv/CROSFIT_SECOND.jpg" alt="Кроссфит">
+            <div class="service-title s">КРОСФІТ</div>
+        </div>
+        <div class="service-item">
+            <img src="photo_serv/BOX.jpg" alt="Бокс">
+            <div class="service-title t">БОКС</div>
+        </div>
+        <div class="service-item">
+            <img src="photo_serv/INDIVUDUAL.jpg" alt="Індивідуальні тренування">
+            <div class="service-title fo">ІНДИВІДУАЛЬНІ ТРЕНУВАННЯ</div>
+        </div>
+        <div class="service-item">
+            <img src="photo_serv/GROUP.jpg" alt="Групові заняття">
+            <div class="service-title fi">ГРУПОВІ ТРЕНУВАННЯ</div>
+        </div>
+        <div class="service-item">
+            <img src="photo_serv/REABILIT.jpg" alt="Реабілітація">
+            <div class="service-title si">РЕАБІЛІТАЦІЯ</div>
+        </div>
+        <div class="service-item">
+            <img src="photo_serv/woman.jpg" alt="Заняття для беременных">
+            <div class="service-title ei">ЗАНЯТТЯ ДЛЯ ВАГІТНИХ</div>
+        </div>
+        <div class="service-item">
+            <img src="photo_serv/MASSAGE.jpg" alt="Массаж">
+            <div class="service-title ni">МАСАЖ</div>
+        </div>
+    </div>
+</section>
+
+
+
+        </main>
+        <footer id="fotter">
+          <div class="all_foot">
+            <img class="foot_logo" src="photo/head_logo.png" alt="">
+            <div class="information">
+              <div class="fot_p awe">Контакти</div>
+              <div class="foot_subpara"><a href="emailto:">Email: kurilchuk.maks2005@gmail.com</a></div>
+              <div class="foot_subpara"><a href="tel:"> Tel: 380730530795</a></div>
+              <div class="foot_subpara">TikTok: KurilchukGYMT</div>
+            </div>
+
+            <div class="geoloc">
+              <div class="fot_p qwer">Розташування</div>
+              <div class="foot_subpara qaz">м.Черкаси вул. Бульвар Шевченка 52</div>
+              <div class="foot_subpara wsx">м.Черкаси вул. Смілянська 41</div>
+              <div class="foot_subpara edc">м.Черкаси вул. Сумгаїтьська 2</div>
+            </div>
+            <div class="media">
+              <div class="fot_p qwert">Соціальні мережі</div>
+              <a href=""><img class="face" src="icons_mes/free-icon-facebook-733547.png" alt=""></a>
+              <a href=""><img class="insta" src="icons_mes/free-icon-instagram-2111463.png" alt=""></a>
+              <a href=""><img class="tw" src="icons_mes/free-icon-twitter-1384049.png" alt=""></a>
+              <a href=""><img class="viber" src="icons_mes/free-icon-viber-3938039.png" alt=""></a>
+              <a href=""><img class="you" src="icons_mes/free-icon-youtube-3938026.png" alt=""></a>
+            </div>
+          </div>
+          <hr class="hr">
+          <div class="fot_fot">Cпортивний зал KURYLCHUK GYM ©2024 • Всі права захищені</div>
+        </footer>
+    </div>
+
+
+
+    <script src="script.js">
+      
+
+    </script>
+</body>
+</html>
