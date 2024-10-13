@@ -10,7 +10,7 @@
         height: 100%;
         width: 95.5%;
         padding-bottom: 5vh;
-        padding-left: 2vh;
+        padding-left: 2.7vh;
     }
 
     .div-fourth-name-personal {
@@ -61,12 +61,13 @@
     .div-fourth-name-personal,
     .div-eight-cards-personal,
     .div-fourth-name-personal {
-        margin-left: -13vh;
+        margin-left: -14vh;
     }
 
     .title-personal {
         font-size: 35px;
-        margin-left: -6vh;
+        margin-left: -6.5vh;
+        padding-bottom: 4vh;
     }
 
     .div-eight-cards-personal {
@@ -84,7 +85,7 @@
     }
 
     .name-personal-6 {
-        margin-top: 29vh;
+        margin-top: 30vh;
         padding-left: 0;
         margin-left: 25vh;
     }
@@ -120,9 +121,10 @@
     .title_main_poslygi {
         font-size: 35px;
         margin: 0;
-        margin-left: -3vh;
+        margin-left: -5vh;
         padding-bottom: 2vh;
         padding-top: 2vh;
+
     }
 
     .service-item:first-child {
@@ -148,7 +150,7 @@
 
     .title_main_second {
         font-size: 45px;
-        margin-left: -8vh;
+        margin-left: -10vh;
     }
 
     .services h3 {
@@ -216,9 +218,9 @@
 
 
     .typing-demo {
-        font-size: 22px;
+        font-size: 23px;
         margin: 0 auto;
-        margin-top: 15vh;
+        margin-top: 5vh;
     }
 
     .all_list_head {
@@ -228,13 +230,38 @@
     }
 
     .card {
-        width: 25px;
-        height: 26vh;
-        margin-top: 12%;
+        width: 30px;
+        height: 45vh;
+        margin-top: 2%;
     }
 
+    .card[for="c1"] {
+        background-image: url('photo/slider_first.jpg');
+        background-position: center;
+        background-size: cover;
+    }
+
+    .card[for="c2"] {
+        background-image: url('photo/slider_second.jpg');
+        background-size: cover;
+        background-position-x: 10%;
+    }
+
+
+    .card[for="c3"] {
+        background-image: url('photo/slider_third.jpg');
+        background-position: center;
+        background-size: cover;
+        background-position-x: 10%;
+    }
+
+    .card[for="c4"] {
+        background-position-x: 100%;
+    }
+
+
     input:checked+label {
-        width: 160px;
+        width: 190px;
     }
 
     .card>.row>.icon {
@@ -247,12 +274,13 @@
     }
 
 
-    .logo{
+    .logo {
         margin-left: 15vh;
         width: 70px;
         height: 70px;
         margin-top: -1%;
     }
+
     .description h4 {
         padding-left: 4px;
         margin-top: 6vh;
@@ -271,7 +299,7 @@
         display: none;
     }
 
-    .xrestik{
+    .xrestik {
         position: absolute;
         margin-top: 2%;
         margin-left: 77%;
@@ -292,10 +320,33 @@
     }
 
 
-    .head_main_back{
+    .head_main_back {
         height: 100vh;
     }
 
-    .ou{
+    .ou {
         margin-left: 12%;
-    }}
+    }
+
+
+    table {
+        top: -15vh;
+        left: 0vh;
+        left: 12%;
+        font-size: 13px;
+
+    }
+
+    .krest {
+        position: relative;
+        top: 14vh;
+        width: 10vh;
+        height: 20vh;
+        left: 1vh;
+    }
+
+    .krest img {
+        width: 20px;
+        height: 20px;
+    }
+}
